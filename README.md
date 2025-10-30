@@ -1,216 +1,173 @@
-# Flutter E-Commerce App Template
 
-<p align="center">
-  <img src="readme%20image/Build%20you%20shop%20app%20in%20days.png" alt="Build you shop app in days" style="width: 500px; height: auto;">
-</p>
+# 🛍️ Flutter E-Commerce App
 
-<p align="center">
-  The FlutterShop template makes it easier to develop an e-commerce app using Flutter. It includes all the necessary pages to build a shopping app for both Android and iOS using flutter.
-</p>
+A modern **E-Commerce mobile app** built with **Flutter**, designed to showcase clean architecture, reusable components, and a smooth user experience for both Android and iOS.  
+This project demonstrates my ability to structure, scale, and deliver production-ready Flutter apps.
 
-<!-- Buttons -->
-<p align="center">
-  <a href="https://cutt.ly/fefxdqE9" style="text-decoration: none;" target="_blank">
-    <img src="readme image/buy_now_btn.png" alt="Full template" style="margin-right: 32px; width: 170px; height: 50px;">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://cutt.ly/1efxdynN" style="text-decoration: none;" target="_blank">
-    <img src="readme image/preview_btn.png" alt="Preview" style="width: 136px; height: 50px;">
-  </a>
-</p>
+---
 
-<!-- Device image -->
-</br >
-</br >
-<p align="center">
-  <img src="readme image/Device_frame.png" alt="Ecommerce app Home, product details page" style="width: 1100px; height: auto;">
-</p>
-</br >
-</br >
+## 🚀 Features
 
-This shop app template comes with 100+ screens. Some of these pages are Splash, Login, Signup, Home, Product, Search, Cart, Profile, Payment, Wallet, Order Tracking, and Order History. Additionally, all pages support both light and dark themes.You just need to connect the UI to your preferred backend, such as Firebase, WordPress, or your custom API. You can do anything you want with it.
+- Beautiful, responsive UI built with **Flutter 3+**
+- Follows **Clean Architecture** and **MVVM principles**
+- Uses **Riverpod** for state management
+- Integrated **theme switching (Light & Dark Mode)**
+- **Navigation**, **form validation**, and **custom animations**
+- Modularized components for **products**, **cart**, **checkout**, and **user profile**
+- Ready for integration with **REST APIs** or **Firebase backend**
 
-<!-- Gif preview -->
-</br >
-</br >
-<p align="center">
-  <img src="readme image/FlutterShop_Intro.gif" alt="Build you shop app in days" style="width: 643px; height: auto;">
-</p>
-</br >
-</br >
+---
 
-### Well organized project very easy to customize
-
-![FlutterShop E-commerce Template Project Structure](https://public-files.gumroad.com/v1kbfvdugf3urvw03qrqgmc5pl1c)
-
-<!-- Full preview -->
-</br >
-</br >
-<p align="center">
-  <img src="https://public-files.gumroad.com/m3v3lyyipbzczcws5gcuhpbkmczk" alt="Build you shop app in days" style="width: 100%; height: auto;">
-</p>
-
-### Loading is no longer boring [New update V1.1] [Doc](https://abu-anwar.gitbook.io/fluttershop-doc/custom-loading)
-
-The progress indicator that comes with Flutter, by default is okay in most places, but not in every place. Especially when you build an ecommerce app. This is why we have created a custom loading effect that boosts your user engagement even during the loading process. This kind of loading is common in popular apps like YouTube and LinkedIn. It's a small detail, but it makes a big difference.
-![FlutterShop Custom loading](https://public-files.gumroad.com/qqnmt9nu5677thkq1961tlwj405u)
-
-## Screens on the FlutterShop E-commerce Template
-
-As mentioned, this kit contains 100+ nicely crafted minimal screens that cover everything you need!👇
-
-### Onboarding
-
-- Onboarding Choose item
-- Onboarding Add to cart
-- Onboarding Pay online
-- Onboarding Track order
-- Onboarding Find store
-- Notification permission
-- Select language
-
-### Authentication
-
-- Log in
-- Forgot password
-  - Choose verification method
-  - Verification code
-- Set new password
-- Done reset password
-- Sign up
-  - Setup profile
-  - Verification code
-- Successfully sign up
-- Terms and conditions
-- Enable fingerprint
-- Enable face ID
-
-### Product
-
-- Product page
-  - Notify when available (Out of stock)
-  - Buy Now
-  - Product details
-  - Product reviews
-  - Add review
-  - Shipping methods
-  - Product return policy
-  - Product size guide
-  - Store Pickup Availability
-  - Added to cart message
-  - Product gallery (Will be added soon)
-
-### Main Page
-
-- Home page
-- On sales page
-- Kids product page
-- Brand page
-- Discover Page (Categories)
-  - Style 1
-  - Style 2 (Will be added soon)
-  - Style 3 (Will be added soon)
-- Bookmark products page
-
-### Search
-
-- Recent search (Search history)
-- Search suggestions
-- Search filters
-  - Size filter
-  - Color filter
-  - Brand filter
-  - Price filter
-  - Sort by
-- Search results
-  - Product not found
-
-### Cart
-
-- Products on Cart
-- Empty cart
-- Choose address
-- Review & payment
-- Checkout / Payment method
-  - Select card
-  - Pay with cash
-  - Use credit
-- Thanks for order
-- Add new card
-- Scan card (Will be added soon)
-
-### Profile
-
-- Account
-  - Normal version
-  - Pro version
-  - Profile
-    - Edit profile
-  - Notifications
-    - Empty notification
-    - Enable notification
-    - Notification options
-  - Select Language
-  - Addresses
-    - Empty address
-    - Add new address
-  - Add number
-    - Verification code
-  - Selected location
-  - Payment
-    - Cards
-    - Empty payment
-  - Wallet
-    - Empty Wallet
-    - Wallet history
-  - Help & Chat (Support)
-    - Chat
-  - Preferences
-
-### Order
-
-- Account Orders
-  - Processing orders
-    - Cancel order
-  - Canceled orders
-  - Delivered orders
-  - Return orders (Will be added soon)
-  - More screens added in that sector soon
-
-### Return & Request (Will be added soon)
-
-- Return order list
-- Empty return order
-- Return order
-- Return detail
-
-### Error & Permission
-
-- Notification permission
-- No notification
-- Select language
-- No internet
-- Server error
-- Location permissions
-- No search result
-- Empty order list
-- No Address found
-- Empty payment
-- Empty wallet
-
-and MORE!!!! 🤩
-
-If you want to learn how to build ecommerce template on Flutter [watch the playlist on YouTube](https://youtube.com/playlist?list=PLxUBb2A_UUy8OlaNZpS2mfL8xpHcnd_Af), In the first video, we start by making a neat onboarding screen for our shopping app. This works on both Android and iOS because it's made with Flutter. In the next video, we tackle the 'Sign In' and 'Forgot Password' screens, adding some unique error messages. The third video covers the 'Sign Up' and OTP processes. The fourth one is fun – we create the main homepage. In the fifth, we dive into the product page, and in the sixth, we craft an order page with cool features like 'swipe to delete.' Finally, in the seventh video, we design the user profile page.
-
-Visit FlutterLibrary.com to Download the [Flutter e-commerce app template](https://www.flutterlibrary.com/templates/e-commerce-app) & other templates, and components.
+## 🧩 Project Structure
 
 
+lib/
+│
+├── core/               # Constants, themes, routes
+├── data/               # Models, repositories
+├── modules/
+│   ├── auth/           # Login, Signup, Forgot Password
+│   ├── home/           # Home screen, product listings
+│   ├── cart/           # Cart & checkout flow
+│   ├── profile/        # User profile & settings
+│   └── widgets/        # Shared UI components
+└── main.dart
 
-</br >
-</br >
-<!-- Buttons -->
-<p align="center">
-  <a href="https://app.gumroad.com/checkout?product=uxznc&option=B3wWhE6QH46cfm31C7jEmQ%3D%3D&quantity=1&referrer=https://github.com" style="text-decoration: none;" target="_blank">
-    <img src="readme image/buy_now_btn.png" alt="Full template" style="margin-right: 32px; width: 170px; height: 50px;">
-  </a>
-</p>
+
+---
+
+## 🛠️ Tech Stack
+
+| Category           | Tools                                      |
+|--------------------|--------------------------------------------|
+| Framework          | Flutter (Dart)                             |
+| State Management   | **Riverpod** (with hooks & async notifiers) |
+| Architecture       | Clean Architecture, MVVM                   |
+| Backend (Optional) | Firebase / REST API                        |
+| UI/UX              | Material Design 3, Responsive Layouts      |
+| Version Control    | Git & GitHub                               |
+
+---
+
+## 📱 Screenshots
+
+| Home | Product Details | Cart | Profile |
+|------|-----------------|------|----------|
+| ![Home](readme_image/home.png) | ![Product](readme_image/product.png) | ![Cart](readme_image/cart.png) | ![Profile](readme_image/profile.png) |
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- Building **scalable Flutter apps** with modular design  
+- Managing state effectively using **Riverpod** (no BuildContext dependency)
+- Applying **clean code principles** and **design patterns**  
+- Creating **reusable widgets** and **responsive layouts**  
+- Implementing **real-world e-commerce flows**
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+git clone https://github.com/yourusername/ecommerce-flutter.git
+cd ecommerce-flutter
+flutter pub get
+flutter run
+```
+
+---
+
+## 🧪 Folder-by-Folder Overview
+
+### `core/`
+> Constants, themes, routes, and shared utilities used across the app.
+
+### `data/`
+> Houses models and repositories — clean separation between UI and data logic.
+
+### `modules/`
+> Each feature (auth, home, cart, profile) is a self-contained module with:
+> - `controller/` → Riverpod providers & notifiers  
+> - `view/` → UI screens  
+> - `widgets/` → Local reusable components
+
+### `widgets/`
+> Global reusable UI components (buttons, cards, loaders, etc.).
+
+---
+
+## 💡 Riverpod State Management Example
+
+### Product List Notifier (Async Loading)
+
+```dart
+final productListProvider = AutoDisposeAsyncNotifierProvider<ProductListNotifier, List<Product>>(() {
+  return ProductListNotifier();
+});
+
+class ProductListNotifier extends AutoDisposeAsyncNotifier<List<Product>> {
+  @override
+  Future<List<Product>> build() async {
+    state = const AsyncLoading();
+    final repository = ref.read(productRepositoryProvider);
+    return await repository.fetchProducts();
+  }
+
+  Future<void> refresh() => future;
+}
+```
+
+### Using in UI (Hook Widget)
+
+```dart
+class ProductListView extends HookConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncProducts = ref.watch(productListProvider);
+
+    return asyncProducts.when(
+      loading: () => const CircularProgressIndicator(),
+      error: (err, _) => Text('Error: $err'),
+      data: (products) => ListView.builder(
+        itemCount: products.length,
+        itemBuilder: (context, index) => ProductCard(product: products[index]),
+      ),
+    );
+  }
+}
+```
+
+---
+
+## 📘 Key Learnings / Focus Areas
+
+- **Riverpod** for scalable, testable state management  
+- Following **SOLID** and **Clean Architecture** principles  
+- Building **production-quality UIs** with Material 3  
+- Integrating APIs and managing **asynchronous data flow**  
+- Maintaining **readable, scalable, and testable** code
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**  
+📧 [your.email@example.com](mailto:your.email@example.com)  
+🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+
+---
+
+## 🧾 License
+
+This project is licensed under the **MIT License** — feel free to use and modify.
+
+---
+
+> 🎯 **Goal:** This project was built to demonstrate full lifecycle Flutter app development — from design and architecture to delivery — suitable for showcasing professional readiness during interviews or technical assessments.
+
+```
+
+---
+**Ready to impress?** Replace placeholder images, update your name/GitHub, and pair this with a live demo or video walkthrough for maximum impact!
+```
