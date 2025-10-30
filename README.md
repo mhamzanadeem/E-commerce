@@ -18,20 +18,6 @@ This project demonstrates my ability to structure, scale, and deliver production
 
 ---
 
-## 🧩 Project Structure
-
-
-lib/
-│
-├── core/               # Constants, themes, routes
-├── data/               # Models, repositories
-├── modules/
-│   ├── auth/           # Login, Signup, Forgot Password
-│   ├── home/           # Home screen, product listings
-│   ├── cart/           # Cart & checkout flow
-│   ├── profile/        # User profile & settings
-│   └── widgets/        # Shared UI components
-└── main.dart
 
 
 ---
@@ -49,13 +35,7 @@ lib/
 
 ---
 
-## 📱 Screenshots
 
-| Home | Product Details | Cart | Profile |
-|------|-----------------|------|----------|
-| ![Home](readme_image/home.png) | ![Product](readme_image/product.png) | ![Cart](readme_image/cart.png) | ![Profile](readme_image/profile.png) |
-
----
 
 ## 🧠 What This Project Demonstrates
 
@@ -150,24 +130,3 @@ class ProductListView extends HookConsumerWidget {
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**  
-📧 [your.email@example.com](mailto:your.email@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
-
----
-
-## 🧾 License
-
-This project is licensed under the **MIT License** — feel free to use and modify.
-
----
-
-> 🎯 **Goal:** This project was built to demonstrate full lifecycle Flutter app development — from design and architecture to delivery — suitable for showcasing professional readiness during interviews or technical assessments.
-
-```
-
----
-**Ready to impress?** Replace placeholder images, update your name/GitHub, and pair this with a live demo or video walkthrough for maximum impact!
-```
